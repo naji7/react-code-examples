@@ -9,9 +9,9 @@ const logCount = () => {
   console.log("count : ", count);
 };
 
-const setCount = () => {
-  useCounterStore.setState({ count: 1 });
-};
+// const setCount = () => {
+//   useCounterStore.setState({ count: 1 });
+// };
 
 export const Counter = ({ count }: { count: number }) => {
   // 1. Best practices : whenever you accessing piece of state, always want to try to be as specific as possible and only access the thing that you need
