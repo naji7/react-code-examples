@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-import { useCounterStore } from "./store";
+import { useCounterStore } from "../stores/store";
 
 // we can actually use this outside of a component and access it directly in just any random function
 const logCount = () => {
