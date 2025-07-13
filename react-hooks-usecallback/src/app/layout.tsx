@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "useMemo Tutorial",
-  description: "A simple guide to using useMemo in React.",
+  title: "useCallback Tutorial",
+  description: "A simple guide to using useCallback in React.",
 };
 
 export default function RootLayout({
